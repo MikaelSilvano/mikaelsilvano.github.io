@@ -30,8 +30,8 @@ I am Mikael Silvano, a third-year Informatics student at Universitas Pelita Hara
 
 ### Research & Publications
 
-* **[IEEE] Performance Evaluation of CUDA Parallel Matrix Multiplication using Julia and C++** *Comparative study of GPU-based matrix multiplication using Julia and C++, published at IEEE MCSoC 2024.*
-* **[Pending IJASEIT] Optimizing MRT Pathways between Jakarta Malls: A Comparative Study** *A graph theory study applying Kruskal’s and Prim’s algorithms to design cost-efficient MRT routes.*
+* **[IEEE] Performance Evaluation of CUDA Parallel Matrix Multiplication using Julia and C++**: Comparative study of GPU-based matrix multiplication using Julia and C++, published at IEEE MCSoC 2024.
+* **[Pending IJASEIT] Optimizing MRT Pathways between Jakarta Malls: A Comparative Study**: A graph theory study applying Kruskal’s and Prim’s algorithms to design cost-efficient MRT routes.
 
 ### GitHub Stats
 ![Mikael's GitHub stats](https://github-readme-stats.vercel.app/api?username=MikaelSilvano&show_icons=true&theme=tokyonight)
