@@ -110,5 +110,7 @@ window.addEventListener('scroll', () => {
             const moveDistance = (track.scrollWidth - window.innerWidth + 100) * percent;
             track.style.transform = `translateX(-${moveDistance}px)`;
         }
+    } else if (track) {
+        track.style.transform = 'translateX(0)';
     }
 });
