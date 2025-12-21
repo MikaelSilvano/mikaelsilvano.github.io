@@ -35,7 +35,3 @@ I am Mikael Silvano, a third-year Informatics student at Universitas Pelita Hara
 
 ### GitHub Stats
 ![Mikael's GitHub stats](https://github-readme-stats.vercel.app/api?username=MikaelSilvano&show_icons=true&theme=tokyonight)
-
-<div align="center">
-  <small>&copy; 2025 Mikael Silvano. Built with Code.</small>
-</div>
