@@ -11,6 +11,8 @@
 ### About Me
 I am Mikael Silvano, a third-year Informatics student at Universitas Pelita Harapan (UPH) with a strong interest in **intelligent and interactive application development.** My journey spans mobile and web development, database-driven systems, software engineering, and high-performance computing research, complemented by leadership roles in student organizations and community programs.
 
+Click here for my [Portfolio!](https://mikaelsilvano.github.io/)
+
 ### Featured Projects
 
 #### [UMKM Digital Catalog](https://umkmkelapadua.com/)
