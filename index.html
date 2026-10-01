@@ -3,633 +3,646 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mikael Silvano - UPH Informatics</title>
+    <title>Mikael Silvano | Web & Mobile Developer, Software Engineer</title>
+    <meta name="description" content="Mikael Silvano: final-year Informatics student at Universitas Pelita Harapan and System Development Intern at BCA. Web and mobile development, software engineering, and high-performance computing research.">
+    <meta name="theme-color" content="#FAF8F3">
+    <meta property="og:title" content="Mikael Silvano | Web & Mobile Developer, Software Engineer">
+    <meta property="og:description" content="Web and mobile developer, software engineer, and IEEE-published HPC researcher based in Tangerang, Indonesia.">
+    <meta property="og:image" content="https://mikaelsilvano.github.io/res/img/profile.png">
+    <meta property="og:url" content="https://mikaelsilvano.github.io/">
     <link rel="icon" href="res/img/logo.png" type="image/png">
-    
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data: https:;">
-    
-    <link rel="stylesheet" href="style.css">
-    
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:;">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="res/js/boot.js"></script>
 </head>
 <body>
 
-    <div id="grid-container"></div>
-    <div id="scroll-progress"></div>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="scroll-progress" aria-hidden="true"></div>
 
-    <nav>
-        <div class="container nav-content">
-            <a href="https://www.linkedin.com/in/mikael-silvano-4659b4238" class="logo" target="_blank" rel="noopener noreferrer">Mikael<span class="dot">.</span>
-            </a>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M5 15V6a2 2 0 0 1 2-2h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+        <symbol id="i-ext" viewBox="0 0 24 24"><path d="M7 17 17 7m0 0H9m8 0v8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="i-award" viewBox="0 0 24 24"><path d="M8 4h8v5a4 4 0 0 1-8 0V4Zm0 1H5v1a3 3 0 0 0 3 3m8-4h3v1a3 3 0 0 1-3 3m-4 4v3m-3.5 4h7M10 20l.5-3h3l.5 3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="i-trend" viewBox="0 0 24 24"><path d="m3 17 6-6 4 4 8-8m0 0h-5m5 0v5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5m8-10 5 5-5 5M14 4l-4 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.09.68-.22.68-.49v-1.7c-2.78.62-3.37-1.36-3.37-1.36-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.85.09-.66.35-1.12.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.4 9.4 0 0 1 12 6.84c.85 0 1.7.12 2.5.34 1.9-1.33 2.74-1.05 2.74-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.64 1.03 2.76 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.59.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></symbol>
+        <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></symbol>
+        <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.5" r="1.1" fill="currentColor"/></symbol>
+    </svg>
 
-            <div class="nav-links">
-                <a href="#about">About</a>
+    <header class="site-header">
+        <div class="container nav">
+            <a href="#top" class="brand" aria-label="Mikael Silvano, back to top">Mikael Silvano</a>
+
+            <nav id="site-nav" class="nav-links" aria-label="Sections">
+                <a href="#experience">Experience</a>
+                <a href="#leadership">Leadership</a>
                 <a href="#projects">Projects</a>
-                <a href="#journey-sticky-container">Journey</a>
-                <a href="#education">Education</a>
-                <a href="#blog">Blog</a>
-                <a href="#contact" class="btn-nav">Contact</a>
-            </div>
-        </div>
-    </nav>
+                <a href="#research">Research</a>
+                <a href="#skills">Skills</a>
+                <a href="#background">Background</a>
+                <a href="#contact">Contact</a>
+                <span class="nav-indicator" aria-hidden="true"></span>
+            </nav>
 
-<header id="about">
-        <div class="container">
-            <div class="about-grid">
-                
-                <div class="about-text fade-in">
-                    <h1>From <span class="gradient-text">Ideas to Apps:</span><br> Designed for <span class="gradient-text">People</span>, Built to <span class="gradient-text">Last</span>.</h1>
-                    
-                    <p class="subtitle">
-                        I am Mikael Silvano, a third-year Informatics student at Universitas Pelita Harapan (UPH) with a strong interest in <b>intelligent and interactive application</b> development. My journey spans <b>mobile and web development, database-driven systems, software engineering, </b>and <b> high-performance computing research</b>, complemented by leadership roles in student organizations and community programs.
-                    </p>
-                    
-                    <div class="code-badge">
-                        &lt;problem status="<span class="green">solved</span>" delivered="<span class="purple">value</span>" /&gt;
-                    </div>
-
-                    <div class="about-btns">
-                        <a href="#projects" class="btn primary">View Projects <i class="ri-arrow-down-line"></i></a>
-                        <a href="res/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn secondary">Download CV <i class="ri-file-download-line"></i></a>
-                    </div>
-                </div>
-
-                <div class="about-image-wrapper fade-in">
-                    <div class="profile-card card-hover">
-                        <div class="card-border"></div>
-                        <div class="card-content profile-content">
-                            <img src="res/img/profile.png" alt="Mikael Silvano" class="profile-img-rect">
-                        </div>
-                    </div>
-                </div>
-
+            <div class="nav-actions">
+                <a href="res/resume.pdf" class="btn btn-small btn-solid" target="_blank" rel="noopener">
+                    <span>CV</span><svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>
+                </a>
+                <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+                    <span class="sr-only">Menu</span>
+                    <span class="menu-bars" aria-hidden="true"></span>
+                </button>
             </div>
         </div>
     </header>
 
-    <section id="stats">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-card card-hover fade-in">
-                    <div class="card-border"></div>
-                    <div class="card-content centered">
-                        <div><h3 class="stat-number" data-target="25"></h3><span class="plus">+</span></div>
-                        <p>Technologies</p>
-                    </div>
-                </div>
-                <div class="stat-card card-hover fade-in">
-                    <div class="card-border"></div>
-                    <div class="card-content centered">
-                        <div><h3 class="stat-number purple" data-target="10"></h3><span class="plus purple">+</span></div>
-                        <p>Total Projects</p>
-                    </div>
-                </div>
-                <div class="stat-card card-hover fade-in">
-                    <div class="card-border"></div>
-                    <div class="card-content centered">
-                        <div><h3 class="stat-number green" data-target="4"></h3><span class="plus green">+</span></div>
-                        <p>Years Experience</p>
-                    </div>
-                </div>
-                <div class="stat-card card-hover fade-in">
-                    <div class="card-border"></div>
-                    <div class="card-content centered">
-                        <div><h3 class="stat-number orange" data-target="10"></h3><span class="plus orange">+</span></div>
-                        <p>Certifications</p>
-                    </div>
+    <main id="main">
+
+        <section id="top" class="hero container">
+            <div class="hero-text">
+                <p class="status intro" style="--i:0"><span class="status-dot" aria-hidden="true"></span>Open to internships, graduate roles, and research collaborations</p>
+                <h1 class="hero-name">
+                    <span class="line"><span style="--i:1">Mikael</span></span>
+                    <span class="line"><span style="--i:2">Silvano</span></span>
+                </h1>
+                <p class="hero-role intro" style="--i:3">Web &amp; mobile developer, software engineer, and high-performance computing researcher in Tangerang, Indonesia.</p>
+                <p class="hero-summary intro" style="--i:4">
+                    Final-year Informatics student at Universitas Pelita Harapan and System Development Intern at BCA,
+                    where my GenAI tools and Power Automate workflows save over IDR 500M a year.
+                    I build products end to end, from requirements and UI to backend and deployment,
+                    and I publish research on GPU performance.
+                </p>
+                <div class="hero-actions intro" style="--i:5">
+                    <a href="res/resume.pdf" class="btn btn-solid" target="_blank" rel="noopener">
+                        <span>Download CV</span><svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>
+                    </a>
+                    <a href="mailto:mikaelsilvano04@gmail.com" class="btn btn-outline">
+                        <span>Email me</span><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
+                    </a>
+                    <span class="hero-socials">
+                        <a href="https://www.linkedin.com/in/mikael-silvano-4659b4238" class="link" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg><span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/MikaelSilvano/" class="link" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span>GitHub</span>
+                        </a>
+                    </span>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section id="skills">
-        <div class="container">
-            <h2 class="section-heading fade-in">Skills & Tools</h2>
-            
-            <div class="skills-category-grid">
-                
-                <div class="skill-group-card card-hover fade-in">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <h3>Programming Languages</h3>
-                        <div class="icon-grid">
-                            <div class="icon-item"><i class="devicon-cplusplus-plain colored"></i><span>C++</span></div>
-                            <div class="icon-item"><i class="devicon-java-plain colored"></i><span>Java</span></div>
-                            <div class="icon-item"><i class="devicon-python-plain colored"></i><span>Python</span></div>
-                            <div class="icon-item"><i class="devicon-javascript-plain colored"></i><span>JS</span></div>
-                            <div class="icon-item"><i class="devicon-kotlin-plain colored"></i><span>Kotlin</span></div>
-                            <div class="icon-item"><i class="devicon-julia-plain colored"></i><span>Julia</span></div>
-                            <div class="icon-item"><i class="devicon-lua-plain colored"></i><span>Lua</span></div>
-                            
-                            <div class="icon-item"><i class="devicon-mysql-plain colored"></i><span>SQL</span></div>
-                        </div>
-                    </div>
+            <aside class="hero-card intro" style="--i:3" aria-label="Quick facts">
+                <div class="portrait">
+                    <img src="res/img/profile.png" alt="Portrait of Mikael Silvano" width="464" height="482">
+                    <div class="thread-grid" aria-hidden="true"></div>
                 </div>
+                <dl class="facts">
+                    <div><dt>Now</dt><dd>System Development Intern, BCA</dd></div>
+                    <div><dt>Study</dt><dd>B.Informatics, UPH, graduating Aug 2027</dd></div>
+                    <div><dt>GPA</dt><dd>3.93 / 4.00</dd></div>
+                    <div><dt>Languages</dt><dd>English, Indonesian</dd></div>
+                </dl>
+            </aside>
+        </section>
 
-                <div class="skill-group-card card-hover fade-in">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <h3>Frameworks & Platforms</h3>
-                        <div class="icon-grid">
-                            <div class="icon-item"><i class="devicon-html5-plain colored"></i><span>HTML</span></div>
-                            <div class="icon-item"><i class="devicon-css3-plain colored"></i><span>CSS</span></div>
-                            <div class="icon-item"><i class="devicon-android-plain colored"></i><span>Android</span></div>
-                            <div class="icon-item"><i class="devicon-bootstrap-plain colored"></i><span>Bootstrap</span></div>
-                            <div class="icon-item"><i class="devicon-firebase-plain colored"></i><span>Firebase</span></div>
-                            <div class="icon-item"><i class="devicon-postgresql-plain colored"></i><span>Postgres</span></div>
-                            <div class="icon-item"><i class="ri-global-line" style="color:#38bdf8"></i><span>REST API</span></div>
-                            <div class="icon-item"><i class="ri-gamepad-fill" style="color:#fca5a5"></i><span>Ren'Py</span></div>
-                            <div class="icon-item"><i class="devicon-godot-plain colored"></i><span>Godot</span></div>
-                        </div>
-                    </div>
-                </div>
+        <section class="container focus" aria-label="Focus areas" data-reveal-group>
+            <a class="focus-item" href="#projects" data-reveal>
+                <h2>Web &amp; mobile development</h2>
+                <p>Android apps in Kotlin and Jetpack Compose, web products with Next.js, TypeScript, Firebase, and Supabase.</p>
+                <span class="focus-link">See projects</span>
+            </a>
+            <a class="focus-item" href="#experience" data-reveal>
+                <h2>Software engineering</h2>
+                <p>Owning the full lifecycle at BCA: requirements, documentation, build, testing, and deployment of internal tools.</p>
+                <span class="focus-link">See experience</span>
+            </a>
+            <a class="focus-item" href="#research" data-reveal>
+                <h2>High-performance computing</h2>
+                <p>IEEE-published work benchmarking CUDA matrix multiplication in C++ and Julia with NVIDIA Nsight Systems.</p>
+                <span class="focus-link">See research</span>
+            </a>
+        </section>
 
-                <div class="skill-group-card card-hover fade-in">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <h3>Tools</h3>
-                        <div class="icon-grid">
-                            <div class="icon-item"><i class="devicon-github-original colored"></i><span>GitHub</span></div>
-                            <div class="icon-item"><i class="devicon-vscode-plain colored"></i><span>VS Code</span></div>
-                            <div class="icon-item"><i class="devicon-intellij-plain colored"></i><span>IntelliJ</span></div>
-                            <div class="icon-item"><i class="devicon-androidstudio-plain colored"></i><span>Android Studio</span></div>
-                            <div class="icon-item"><i class="devicon-jupyter-plain colored"></i><span>Jupyter</span></div>
-                            <div class="icon-item"><i class="ri-google-fill"></i><span>Colab</span></div>
-                            <div class="icon-item"><i class="devicon-linux-plain colored"></i><span>Linux</span></div>
-                            <div class="icon-item"><i class="ri-terminal-window-line"></i><span>Kali</span></div>
-                            <div class="icon-item"><i class="ri-radar-fill"></i><span>Wireshark</span></div>
-                            <div class="icon-item"><i class="ri-database-2-fill"></i><span>DBeaver</span></div>
-                            <div class="icon-item"><i class="ri-terminal-box-line" style="color:#38bdf8"></i><span>Nsight</span></div>
-                            <div class="icon-item"><i class="devicon-trello-plain colored"></i><span>Trello</span></div>
+        <section id="experience" class="container section">
+            <div class="section-head" data-reveal>
+                <h2>Experience</h2>
+                <p>Industry work, most recent first.</p>
+            </div>
+            <div class="section-body">
+                <ol class="timeline">
+                    <li class="role is-current" data-reveal>
+                        <div class="role-date">Jan 2026 – present<span>9 months</span></div>
+                        <div class="role-body">
+                            <h3>System Development Intern</h3>
+                            <p class="role-org">PT Bank Central Asia Tbk (BCA), Tangerang</p>
+                            <p class="role-summary">Building internal GenAI and automation tools for banking operations, and owning each project's full lifecycle: user requirements, documentation, development, testing, and deployment.</p>
+                            <div class="impact">
+                                <div>
+                                    <p class="impact-num">IDR <span data-count="500">500</span>M+</p>
+                                    <p class="impact-label">annual cost efficiency</p>
+                                </div>
+                                <div>
+                                    <p class="impact-num"><span data-count="7969">7,969</span> min</p>
+                                    <p class="impact-label">of manual work saved each month</p>
+                                </div>
+                            </div>
+                            <ul class="points">
+                                <li><strong>GenAI chatbot.</strong> Developed and trained an internal GenAI chatbot to automate query operations. Validated the AI model and built system menus to speed up CSV data processing and reporting.</li>
+                                <li><strong>Cash reporting automation.</strong> Created Power Automate workflows that generate cash reports as documents and send them by email automatically.</li>
+                                <li><strong>ATM maintenance reporting.</strong> Built an automated report for the ATM maintenance process in Power Automate, programming the matching of vendor recap data against internal databases, from initial requirements to final deployment.</li>
+                                <li><strong>Impact.</strong> Across all deployed automation projects: IDR 500M+ in annual cost efficiency and 7,969 minutes of manual work saved per month.</li>
+                            </ul>
+                            <ul class="stack" aria-label="Tools used">
+                                <li>GenAI</li><li>Power Automate (Cloud &amp; Desktop)</li><li>Power Apps</li><li>SQL</li><li>CSV processing</li>
+                            </ul>
                         </div>
+                    </li>
+                    <li class="role" data-reveal>
+                        <div class="role-date">May 2023<span>14 days</span></div>
+                        <div class="role-body">
+                            <h3>Database Administrator &amp; Management</h3>
+                            <p class="role-org">IFGF Global, Tangerang</p>
+                            <p class="role-summary">Managed and organized the databases of church congregations, pastors, and mentors across Indonesia, keeping data accurate and information flowing smoothly between branches.</p>
+                            <ul class="points">
+                                <li>Led the data migration from a legacy system to a new database, performing end-to-end data entry and cleansing for ~1,000 congregants across multiple branches (Karawaci, Jakarta, and others) in two weeks.</li>
+                                <li>Mapped the schema and normalized membership status levels such as congregant, mentee, mentor, and pastoral roles.</li>
+                                <li>Enforced validation rules with unique IDs, removing 400 duplicates and improving lookup and reporting efficiency by 25%.</li>
+                                <li>Handled daily data entry, organization, and reporting while building time management, communication, and teamwork skills.</li>
+                            </ul>
+                            <ul class="stack" aria-label="Skills used">
+                                <li>Data migration</li><li>Schema mapping</li><li>Data cleansing</li><li>Validation rules</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="role" data-reveal>
+                        <div class="role-date">Jun 2022<span>10 days</span></div>
+                        <div class="role-body">
+                            <h3>Database Management</h3>
+                            <p class="role-org">Indomobil Nissan Datsun Group, Gading Serpong</p>
+                            <p class="role-summary">Maintained the Dealer Management System at Nissan Datsun Gading Serpong, handling customer-service reminders and data organization with a focus on data integrity.</p>
+                            <ul class="points">
+                                <li>Sent 1,385 WhatsApp service reminders, averaging ~154 per active day.</li>
+                                <li>Cleared a 1,050-customer reminder backlog to zero by day 9.</li>
+                                <li>Verified every message against vehicle history (name, model, plate, and phone) to prevent mis-contact.</li>
+                                <li>Gained practical insight into corporate work ethics, workflow management, and customer relationship management.</li>
+                            </ul>
+                            <ul class="stack" aria-label="Skills used">
+                                <li>Dealer Management System</li><li>Data verification</li><li>CRM</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="leadership" class="container section">
+            <div class="section-head" data-reveal>
+                <h2>Leadership</h2>
+                <p>Student organizations and community programs since 2022.</p>
+            </div>
+            <div class="section-body">
+
+                <article class="org" data-reveal>
+                    <header class="org-head">
+                        <h3>Himpunan Mahasiswa Informatika (HMIF) UPH</h3>
+                        <p>Informatics Student Association, Lippo Village, 2 years 3 months</p>
+                    </header>
+                    <ol class="org-roles">
+                        <li class="org-role">
+                            <div class="lead-top"><h4>President</h4><span>Aug 2024 – Jul 2025</span></div>
+                            <p>Led the organization and coordinated the team to plan events that build community and development among Informatics students and the Faculty of Information Technology, through strategic planning, team leadership, and collaboration.</p>
+                            <ul class="points">
+                                <li>Directed five divisions and nine programs on time and within approved budgets, driving participation of 100+ Informatics students.</li>
+                                <li>Introduced budget tracking, post-event reports, and communication standards, raising budget efficiency from ~60% to ~90%.</li>
+                                <li>Enabled a self-service merchandise stall earning ~IDR 1.5M per month.</li>
+                            </ul>
+                        </li>
+                        <li class="org-role">
+                            <div class="lead-top"><h4>Board of Leaders, PPK Ormawa HMPS Informatika UPH</h4><span>Apr – Nov 2025</span></div>
+                            <p>Co-led program strategy and execution for a 7-month community digitalization program with a 12-member team. Drafted the proposal for Belmawa and presented it to reviewers; it was selected from 676 submissions and awarded IDR 31.1M.</p>
+                            <ul class="points">
+                                <li>Delivered six strategic coaching sessions for small businesses (UMKM) in Kelurahan Kelapa Dua, speaking at Session 1 (Introduction to Digital Marketing) and Session 2 (Creating Promotional Content with Canva), and hosting Session 5 (Cybersecurity for UMKM) as MC.</li>
+                                <li>Contributed to building the UMKM Digital Catalog website and handed it over to the village office.</li>
+                                <li>Managed budgeting, internal and external coordination, communications, and each session's operational needs, from training modules to multimedia.</li>
+                            </ul>
+                        </li>
+                        <li class="org-role">
+                            <div class="lead-top"><h4>Steering Committee, Komisi Pemilihan Umum HMIF 2025</h4><span>May – Jul 2025</span></div>
+                            <p>Oversaw the student election for the 2025/2026 President and Vice President, guiding the organizing team through candidate registration, the fit and proper test, and election day for a fair and transparent process.</p>
+                        </li>
+                    </ol>
+                    <details class="more">
+                        <summary><span class="more-label">Show 9 more roles at HMIF</span><span class="more-icon" aria-hidden="true"></span></summary>
+                        <div class="more-body">
+                            <ol class="org-roles">
+                                <li class="org-role">
+                                    <div class="lead-top"><h4>Steering Committee, Informatics Day of Engagement &amp; Activities (I-DEA) 2025</h4><span>Apr – Jun 2025</span></div>
+                                    <p>Guided the organizing team and gave feedback for a two-day program: a talk show with tech industry experts, followed by bonding activities and an awarding session.</p>
+                                </li>
+                                <li class="org-role">
+                                    <div class="lead-top"><h4>Coordinator of Event Division, Informatics Goes to Company 2025</h4><span>Mar – Apr 2025</span></div>
+                                    <p>Led planning and execution of the company visit to Nanovest, South Jakarta: event timeline, smartbook design, and technical flow, supervising MCs and timekeepers for smooth transitions.</p>
+                                </li>
+                                <li class="org-role">
+                                    <div class="lead-top"><h4>Steering Committee, Studi Banding FIT UPH and UI 2024</h4><span>Aug – Sep 2024</span></div>
+                                    <p>Reviewed progress and deliverables for a comparative study between UPH's Faculty of Information Technology and Universitas Indonesia's Faculty of Computer Science, and presented an overview of HMIF.</p>
+                                </li>
+                                <li class="org-role">
+                                    <div class="lead-top"><h4>Steering Committee, Welcoming Party x Informatics Trip 2024</h4><span>Jul – Sep 2024</span></div>
+                                    <p>Guided a three-day bonding event in Lippo Village and Bandung that introduced Informatics freshmen to campus life.</p>
+                                </li>
+                                <li class="org-role">
+                                    <div class="lead-top"><h4>Secretary &amp; Treasurer, Informatics Trip 2024</h4><span>Apr – Jun 2024</span></div>
+                                    <p>Managed participant data, finances, fundraising, and stakeholder meetings for a two-day fellowship in Puncak, Bogor, with detailed financial reports for transparency.</p>
+                                </li>
+                                <li class="org-role">
+                                    <div class="lead-top"><h4>Coordinator of Design, Documentation, and Multimedia, I-Core 2024</h4><span>Apr – Jun 2024</span></div>
+                                    <p>Led the team designing the logo, presentation materials, and posters for an online seminar; supervised photo and video documentation and ran the Zoom conference.</p>
+                                </li>
+                                <li class="org-role">
+                                    <div class="lead-top"><h4>Coordinator of Logistics, Informatics Goes to Company 2024</h4><span>Feb – Mar 2024</span></div>
+                                    <p>Organized a company visit to Bank Central Asia: transportation, meals, and award gifts for the host.</p>
+                                </li>
+                                <li class="org-role">
+                                    <div class="lead-top"><h4>Member of Student Development Division</h4><span>Sep 2023 – Aug 2024</span></div>
+                                    <p>Organized webinars and competitions supporting Informatics students' growth.</p>
+                                </li>
+                                <li class="org-role">
+                                    <div class="lead-top"><h4>Design, Documentation, and Multimedia, HMPTIF &amp; HMPSSI Webinar 2024</h4><span>Feb – Mar 2024</span></div>
+                                    <p>Photographed and filmed the "From Idea to Impact: The Technopreneur Mindset" webinar and edited the aftermovie shared on social media.</p>
+                                </li>
+                            </ol>
+                        </div>
+                    </details>
+                </article>
+
+                <article class="org" data-reveal>
+                    <header class="org-head">
+                        <h3>Falcon Project UPH</h3>
+                        <p>National competition and seminar festival</p>
+                    </header>
+                    <ol class="org-roles">
+                        <li class="org-role">
+                            <div class="lead-top"><h4>Secretary, Falcon Project 14</h4><span>Jul – Nov 2024</span></div>
+                            <p>Managed administration, stakeholder communication, and documentation of decisions and progress for a two-week festival with four national competitions.</p>
+                            <ul class="points">
+                                <li>Hosted 365 competitors from 25 universities and 79 schools.</li>
+                                <li>Secured and serviced eight sponsors, including Qatar Airways.</li>
+                                <li>Coordinated across departments, balancing deadlines and last-minute changes with accuracy.</li>
+                            </ul>
+                        </li>
+                        <li class="org-role">
+                            <div class="lead-top"><h4>Coordinator of Documentation Division, Falcon Project 13</h4><span>Sep 2023 – Feb 2024</span></div>
+                            <p>Led the documentation team capturing the event in photo and video, and edited promotional trailers, highlight reels, and the aftermovie under tight deadlines.</p>
+                        </li>
+                    </ol>
+                </article>
+
+                <article class="org" data-reveal>
+                    <header class="org-head">
+                        <h3>Mentoring UPH</h3>
+                        <p>Universitas Pelita Harapan, 1 year 2 months</p>
+                    </header>
+                    <ol class="org-roles">
+                        <li class="org-role">
+                            <div class="lead-top"><h4>Mentor, UPH Festival 2024</h4><span>Aug 2024 – Jun 2025</span></div>
+                            <p>Supported Informatics freshmen through orientation week and the semester, helping them adapt to university life and supporting their well-being.</p>
+                            <ul class="points">
+                                <li>Guided 25 freshmen to 88% completion of the Grow-Life module.</li>
+                            </ul>
+                        </li>
+                        <li class="org-role">
+                            <div class="lead-top"><h4>Secretary &amp; Treasurer, Mentoring Appreciation Night 2025</h4><span>Aug – Sep 2025</span></div>
+                            <p>Managed budgeting, expense tracking, the final financial report, and meeting minutes; coordinated vendors and the program committee so rundowns, venue, and multimedia were aligned end to end.</p>
+                        </li>
+                        <li class="org-role">
+                            <div class="lead-top"><h4>Coordinator of Logistic Division, UPH Festival 2025</h4><span>Jul – Aug 2025</span></div>
+                            <p>Prepared and delivered all essentials, from vests and first-aid supplies to walkie-talkies for real-time coordination, and managed venue readiness and participant flow between sessions.</p>
+                        </li>
+                    </ol>
+                    <details class="more">
+                        <summary><span class="more-label">Show 2 more roles at Mentoring UPH</span><span class="more-icon" aria-hidden="true"></span></summary>
+                        <div class="more-body">
+                            <ol class="org-roles">
+                                <li class="org-role">
+                                    <div class="lead-top"><h4>Member of Logistic Division, Training Mentor 2025</h4><span>Feb – Jul 2025</span></div>
+                                    <p>Prepared materials, booked venues, and organized committee identity items such as t-shirts, name tags, and walkie-talkies.</p>
+                                </li>
+                                <li class="org-role">
+                                    <div class="lead-top"><h4>Secretariat, Mentoring UPH</h4><span>2025 – 2026</span></div>
+                                    <p>Supports the core team with administration and documentation for the mentoring program.</p>
+                                </li>
+                            </ol>
+                        </div>
+                    </details>
+                </article>
+
+                <details class="more more-standalone" data-reveal>
+                    <summary><span class="more-label">Show earlier roles (2022 – 2025)</span><span class="more-icon" aria-hidden="true"></span></summary>
+                    <div class="more-body">
+                        <ol class="org-roles">
+                            <li class="org-role">
+                                <div class="lead-top"><h4>Corporate Registration &amp; Sponsorship, Career Expo 2025</h4><span>Jan – Apr 2025</span></div>
+                                <p class="org-role-org">Badan Eksekutif Mahasiswa UPH</p>
+                                <p>Identified and secured sponsorship partners and invited companies to the career fair, coordinating with them from preparation to event day.</p>
+                            </li>
+                            <li class="org-role">
+                                <div class="lead-top"><h4>Multimedia &amp; Publication, UPH Awards 2023</h4><span>Sep – Oct 2023</span></div>
+                                <p class="org-role-org">Universitas Pelita Harapan</p>
+                                <p>Built the presentation listing the year's student winners, ensuring every name was accurate, and ran multimedia during the event.</p>
+                            </li>
+                            <li class="org-role">
+                                <div class="lead-top"><h4>Head of Ticketing, UPH College Theatre 2023</h4><span>Feb – Mar 2023</span></div>
+                                <p class="org-role-org">UPH College</p>
+                                <p>Led the end-to-end ticketing process: booking system, seat allocation, and payment coordination, tracking sales against revenue targets.</p>
+                            </li>
+                            <li class="org-role">
+                                <div class="lead-top"><h4>PIC of Decoration and Electrical, UPH College Challenge 2023</h4><span>Jan – Feb 2023</span></div>
+                                <p class="org-role-org">UPH College</p>
+                                <p>Led the team creating and installing decorations for the venue and bazaar, keeping the timeline and quality on track.</p>
+                            </li>
+                            <li class="org-role">
+                                <div class="lead-top"><h4>Mentor, New Student Orientation 2022</h4><span>Jul 2022 – Jun 2023</span></div>
+                                <p class="org-role-org">UPH College</p>
+                                <p>Helped freshmen transition to high school life with interactive activities and answered questions about academics and school culture.</p>
+                            </li>
+                            <li class="org-role">
+                                <div class="lead-top"><h4>Member of Academic Excellence Division</h4><span>Apr 2022 – Apr 2023</span></div>
+                                <p class="org-role-org">UPH College</p>
+                                <p>Organized study groups and mentoring to build a culture of learning and collaboration.</p>
+                            </li>
+                            <li class="org-role">
+                                <div class="lead-top"><h4>Mentor, New Student Transition Day</h4><span>May 2022</span></div>
+                                <p class="org-role-org">UPH College</p>
+                                <p>Guided incoming students through a one-day workshop with a school tour, curriculum overview, and elective exploration.</p>
+                            </li>
+                        </ol>
                     </div>
-                </div>
+                </details>
 
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="projects">
-        <div class="container">
-            <h2 class="section-heading fade-in">Featured Projects</h2>
-            <div class="project-grid">
-                
-                <article class="project-card card-hover fade-in">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <div class="card-header">
-                            <i class="ri-store-3-line icon-lg"></i>
-                        </div>
-                        <h3>UMKM Digital Catalog</h3>
-                        <p>A digital catalog platform empowering Kelurahan Kelapa Dua businesses, driving 30% revenue growth for UMKM. Featuring WhatsApp checkout integration and analytical dashboard.</p>
-                        
-                        <div class="tech-row">
-                            <span class="tech-tag"><i class="devicon-html5-plain"></i> HTML</span>
-                            <span class="tech-tag"><i class="devicon-css3-plain"></i> CSS</span>
-                            <span class="tech-tag"><i class="devicon-javascript-plain"></i> JS</span>
-                            <span class="tech-tag"><i class="devicon-firebase-plain"></i> Firebase</span>
-                            <span class="tech-tag"><i class="ri-database-2-line"></i> REST</span>
-                            <span class="tech-tag"><i class="ri-whatsapp-line"></i> API</span>
-                        </div>
+        <section id="projects" class="container section">
+            <div class="section-head" data-reveal>
+                <h2>Projects</h2>
+                <p>Products I designed or built, with what they achieved.</p>
+            </div>
+            <div class="section-body project-list" data-reveal-group>
 
-                        <div class="project-btns">
-                            <a href="https://umkmkelapadua.com/" target="_blank" rel="noopener noreferrer" class="btn-outline full-width">View Site <i class="ri-arrow-right-line"></i></a>
-                        </div>
+                <article class="project" data-reveal>
+                    <p class="project-kind">AI &amp; IoT</p>
+                    <h3>SereneSense</h3>
+                    <p>AIoT platform that predicts meltdowns in children with autism. Deep-learning computer vision classifies facial expressions and gestures, fused with sensor and heart-rate data.</p>
+                    <p class="project-result"><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg><span>Best Dynamic Team and Top 8 Finalist, Harvard HSIL Hackathon 2026</span></p>
+                    <ul class="stack"><li>Computer vision</li><li>Deep learning</li><li>IoT sensors</li></ul>
+                </article>
+
+                <article class="project" data-reveal>
+                    <p class="project-kind">Web</p>
+                    <h3>UPH Informatics Website</h3>
+                    <p>Official website of UPH's Informatics Study Program: profile, curriculum, lecturers, research, news, and events, with a CMS for admins and lecturers.</p>
+                    <p class="project-result"><svg class="icon" aria-hidden="true"><use href="#i-code"/></svg><span>Built the backend and CMS APIs</span></p>
+                    <ul class="stack"><li>Backend</li><li>REST API</li><li>CMS</li></ul>
+                </article>
+
+                <article class="project" data-reveal>
+                    <p class="project-kind">Web</p>
+                    <h3>UMKM Digital Catalog</h3>
+                    <p>Catalog website for small businesses in Kelurahan Kelapa Dua, with WhatsApp Business checkout and an analytics dashboard. Handed over to the village office.</p>
+                    <p class="project-result"><svg class="icon" aria-hidden="true"><use href="#i-trend"/></svg><span>300+ visitors in 3 months; 30%+ of businesses reported at least 20% revenue growth</span></p>
+                    <ul class="stack"><li>JavaScript</li><li>Firebase</li><li>WhatsApp API</li><li>Analytics</li></ul>
+                    <div class="project-links">
+                        <a href="https://umkmkelapadua.com/" class="link" target="_blank" rel="noopener noreferrer"><span>Visit site</span><svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
                     </div>
                 </article>
 
-                <article class="project-card card-hover fade-in">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <div class="card-header">
-                            <i class="ri-map-pin-user-line icon-lg"></i>
-                        </div>
-                        <h3>Campus Guide Map UPH</h3>
-                        <p>Centralized Android navigation app for UPH Campus. Implemented real-time admin CRUD, floor-by-floor navigation, event tracking, and pathway across buildings.</p>
-                        
-                        <div class="tech-row">
-                            <span class="tech-tag"><i class="devicon-androidstudio-plain"></i> Android Studio</span>
-                            <span class="tech-tag"><i class="devicon-kotlin-plain"></i> Kotlin</span>
-                            <span class="tech-tag"><i class="devicon-android-plain"></i> Compose</span>
-                            <span class="tech-tag"><i class="devicon-firebase-plain"></i> Firebase</span>
-                            <span class="tech-tag"><i class="ri-database-2-line"></i> REST</span>
-                        </div>
-
-                        <div class="project-btns two-btns">
-                            <a href="https://drive.google.com/file/d/1ELDbtfT_7gwVFob1OnsJt_Sszn0sUmSM/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-outline">Download <i class="ri-download-line"></i></a>
-                            <a href="https://github.com/MikaelSilvano/CampusGuideMapUPH/" target="_blank" rel="noopener noreferrer" class="btn-outline">GitHub <i class="devicon-github-original"></i></a>
-                        </div>
+                <article class="project" data-reveal>
+                    <p class="project-kind">Android</p>
+                    <h3>Campus Guide Map UPH</h3>
+                    <p>Android app for campus navigation and events: room and event search, floor-by-floor navigation, calendar sync, and real-time admin CRUD.</p>
+                    <ul class="stack"><li>Kotlin</li><li>Jetpack Compose</li><li>Firebase</li><li>REST API</li></ul>
+                    <div class="project-links">
+                        <a href="https://github.com/MikaelSilvano/CampusGuideMapUPH/" class="link" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span>Source code</span></a>
+                        <a href="https://drive.google.com/file/d/1ELDbtfT_7gwVFob1OnsJt_Sszn0sUmSM/view?usp=sharing" class="link" target="_blank" rel="noopener noreferrer"><span>Download APK</span><svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
                     </div>
                 </article>
 
-                <article class="project-card card-hover fade-in">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <div class="card-header">
-                            <i class="ri-gamepad-line icon-lg"></i>
-                        </div>
-                        <h3>EcoCity Match</h3>
-                        <p>An educational puzzle matching game focused on SDG 11: Sustainable Cities and Communities. Achieved Top 20 National Finalist status at GEMASTIK XVIII. </p>
-                        
-                        <div class="tech-row">
-                            <span class="tech-tag"><i class="devicon-python-plain"></i> Python</span> 
-                            <span class="tech-tag"><i class="ri-gamepad-fill"></i> Ren'Py</span>
-                        </div>
-                        <div class="project-btns two-btns">
-                            <a href="https://bit.ly/EcoCityMatchFinalGemastik" target="_blank" rel="noopener noreferrer" class="btn-outline">Download <i class="ri-download-line"></i></a>
-                            <a href="https://github.com/MikaelSilvano/GameSemester4" target="_blank" rel="noopener noreferrer" class="btn-outline">GitHub <i class="devicon-github-original"></i></a>
-                        </div>
+                <article class="project" data-reveal>
+                    <p class="project-kind">Game</p>
+                    <h3>EcoCity Match</h3>
+                    <p>Educational match-3 game about SDG 11, Sustainable Cities and Communities, combining puzzle mechanics with city-building.</p>
+                    <p class="project-result"><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg><span>National Finalist (Top 20), Gemastik XVIII Game Application Development</span></p>
+                    <ul class="stack"><li>Python</li><li>Ren'Py</li></ul>
+                    <div class="project-links">
+                        <a href="https://github.com/MikaelSilvano/GameSemester4" class="link" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span>Source code</span></a>
+                        <a href="https://bit.ly/EcoCityMatchFinalGemastik" class="link" target="_blank" rel="noopener noreferrer"><span>Download game</span><svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
                     </div>
                 </article>
 
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="research" class="fade-in">
+        <section id="research" class="container section">
+            <div class="section-head" data-reveal>
+                <h2>Research</h2>
+                <p>Publications and ongoing work with the UPH HPC research group.</p>
+            </div>
+            <div class="section-body" data-reveal-group>
+                <article class="paper" data-reveal>
+                    <p class="paper-venue">IEEE MCSoC 2024</p>
+                    <h3><a href="https://ieeexplore.ieee.org/document/10819596/" target="_blank" rel="noopener noreferrer">Performance Evaluation of CUDA Parallel Matrix Multiplication using Julia and C++</a></h3>
+                    <p>Compares GPU matrix multiplication in CUDA C++ and CUDA.jl, profiling runtime overhead with NVIDIA Nsight Systems and discussing optimization strategies. Published at the 17th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip.</p>
+                    <p class="paper-doi">DOI <a href="https://doi.org/10.1109/MCSoC64144.2024.00064" target="_blank" rel="noopener noreferrer">10.1109/MCSoC64144.2024.00064</a></p>
+                </article>
+                <article class="paper" data-reveal>
+                    <p class="paper-venue">IJASEIT, Vol. 15 No. 6</p>
+                    <h3><a href="https://doi.org/10.18517/ijaseit.15.6.20831" target="_blank" rel="noopener noreferrer">Optimizing MRT Pathways between Jakarta Malls: Comparative Study of Kruskal and Prim Algorithms</a></h3>
+                    <p>Models Jakarta malls as a weighted graph and applies minimum spanning tree algorithms to design cost-efficient MRT routes, comparing runtime and network efficiency.</p>
+                    <p class="paper-doi">DOI <a href="https://doi.org/10.18517/ijaseit.15.6.20831" target="_blank" rel="noopener noreferrer">10.18517/ijaseit.15.6.20831</a></p>
+                </article>
+                <article class="paper" data-reveal>
+                    <p class="paper-venue">In progress</p>
+                    <h3>DNA Storage Systems</h3>
+                    <p>PRISMA-style systematic literature review for the UPH HPC research group, screening 126 papers.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" class="container section">
+            <div class="section-head" data-reveal>
+                <h2>Skills</h2>
+                <p>Languages and tools I use in real projects.</p>
+            </div>
+            <div class="section-body">
+                <dl class="skills" data-reveal-group>
+                    <div data-reveal>
+                        <dt>Languages</dt>
+                        <dd><ul class="skill-grid">
+                            <li><span class="logo" style="--src:url(res/img/skills/cplusplus.svg);--brand:#00599C" aria-hidden="true"></span>C / C++</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/openjdk.svg)" aria-hidden="true"></span>Java</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/python.svg);--brand:#3776AB" aria-hidden="true"></span>Python</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/kotlin.svg);--brand:#7F52FF" aria-hidden="true"></span>Kotlin</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/typescript.svg);--brand:#3178C6" aria-hidden="true"></span>TypeScript</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/javascript.svg);--brand:#C9A800" aria-hidden="true"></span>JavaScript</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/julia.svg);--brand:#9558B2" aria-hidden="true"></span>Julia</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/lua.svg);--brand:#2C2D72" aria-hidden="true"></span>Lua</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/sql.svg);--brand:#336791" aria-hidden="true"></span>SQL</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/html5.svg);--brand:#E34F26" aria-hidden="true"></span>HTML</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/css3.svg);--brand:#1572B6" aria-hidden="true"></span>CSS</li>
+                        </ul></dd>
+                    </div>
+                    <div data-reveal>
+                        <dt>Web &amp; mobile</dt>
+                        <dd><ul class="skill-grid">
+                            <li><span class="logo" style="--src:url(res/img/skills/android.svg);--brand:#2E9E4A" aria-hidden="true"></span>Android</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/jetpackcompose.svg);--brand:#4285F4" aria-hidden="true"></span>Jetpack Compose</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/nextdotjs.svg)" aria-hidden="true"></span>Next.js</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/firebase.svg);--brand:#E89A00" aria-hidden="true"></span>Firebase</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/supabase.svg);--brand:#2EAD74" aria-hidden="true"></span>Supabase</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/postgresql.svg);--brand:#4169E1" aria-hidden="true"></span>PostgreSQL</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/api.svg)" aria-hidden="true"></span>REST API</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/uiux.svg)" aria-hidden="true"></span>UI/UX design</li>
+                        </ul></dd>
+                    </div>
+                    <div data-reveal>
+                        <dt>HPC &amp; research</dt>
+                        <dd><ul class="skill-grid">
+                            <li><span class="logo" style="--src:url(res/img/skills/nvidia.svg);--brand:#5E9400" aria-hidden="true"></span>CUDA C++</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/julia.svg);--brand:#9558B2" aria-hidden="true"></span>CUDA.jl</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/nvidia.svg);--brand:#5E9400" aria-hidden="true"></span>Nsight Systems</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/gauge.svg)" aria-hidden="true"></span>Profiling &amp; benchmarking</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/jupyter.svg);--brand:#F37626" aria-hidden="true"></span>Jupyter</li>
+                        </ul></dd>
+                    </div>
+                    <div data-reveal>
+                        <dt>Automation</dt>
+                        <dd><ul class="skill-grid">
+                            <li><span class="logo" style="--src:url(res/img/skills/powerautomate.svg);--brand:#0066FF" aria-hidden="true"></span>Power Automate</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/powerapps.svg);--brand:#742774" aria-hidden="true"></span>Power Apps</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/outsystems.svg);--brand:#CC2229" aria-hidden="true"></span>OutSystems</li>
+                        </ul></dd>
+                    </div>
+                    <div data-reveal>
+                        <dt>Tools</dt>
+                        <dd><ul class="skill-grid">
+                            <li><span class="logo" style="--src:url(res/img/skills/git.svg);--brand:#F05032" aria-hidden="true"></span>Git</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/github.svg)" aria-hidden="true"></span>GitHub</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/visualstudiocode.svg);--brand:#007ACC" aria-hidden="true"></span>VS Code</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/androidstudio.svg);--brand:#2DB26A" aria-hidden="true"></span>Android Studio</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/intellijidea.svg)" aria-hidden="true"></span>IntelliJ IDEA</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/figma.svg);--brand:#F24E1E" aria-hidden="true"></span>Figma</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/linux.svg);--brand:#B8860B" aria-hidden="true"></span>Linux</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/dbeaver.svg);--brand:#382923" aria-hidden="true"></span>DBeaver</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/trello.svg);--brand:#0052CC" aria-hidden="true"></span>Trello</li>
+                            <li><span class="logo" style="--src:url(res/img/skills/hostinger.svg);--brand:#673DE6" aria-hidden="true"></span>Hostinger</li>
+                        </ul></dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
+
+        <section id="background" class="container section">
+            <div class="section-head" data-reveal>
+                <h2>Background</h2>
+                <p>Education, awards, certifications, and press.</p>
+            </div>
+            <div class="section-body">
+
+                <div class="sub" data-reveal>
+                    <h3 class="sub-head">Education</h3>
+                    <div class="edu">
+                        <div class="edu-item">
+                            <div>
+                                <h4>Universitas Pelita Harapan</h4>
+                                <p>Bachelor of Informatics, GPA 3.93 / 4.00</p>
+                            </div>
+                            <p class="edu-date">Aug 2023 – Aug 2027 (expected)</p>
+                        </div>
+                        <div class="edu-item">
+                            <div>
+                                <h4>UPH College</h4>
+                                <p>Science, Mathematics, and Computer Science</p>
+                            </div>
+                            <p class="edu-date">Jul 2020 – Jun 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sub" data-reveal>
+                    <h3 class="sub-head">Awards</h3>
+                    <ul class="award-list">
+                        <li><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg><span><strong>Best Dynamic Team &amp; Top 8 Finalist</strong>, Harvard HSIL Hackathon 2026</span></li>
+                        <li><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg><span><strong>National Finalist (Top 20)</strong>, Gemastik XVIII Game Application Development</span></li>
+                        <li><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg><span><strong>Community Impact Recognition</strong>, UPH Awards, for PPK Ormawa 2025</span></li>
+                        <li><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg><span><strong>Guest Speaker</strong>, UPH College University &amp; Career Day 2024 and 2025</span></li>
+                        <li><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg><span><strong>Academic Excellence</strong> in Applied Mathematics and in Life Science, UPH College Awards 2023</span></li>
+                    </ul>
+                </div>
+
+                <div class="sub" data-reveal>
+                    <h3 class="sub-head">Certifications</h3>
+                    <ul class="cert-list">
+                        <li><a href="https://certificates.cs50.io/327b3715-94c2-46c0-a57e-bfe1acb1caa9.pdf?size=letter" target="_blank" rel="noopener noreferrer"><span class="cert-name">CS50's Introduction to Computer Science</span><span class="cert-meta">Harvard, 2022</span></a></li>
+                        <li><a href="https://courses.edx.org/certificates/e83cca7f2c5e48e0b775bb95e2048405" target="_blank" rel="noopener noreferrer"><span class="cert-name">CS50's Introduction to Cybersecurity</span><span class="cert-meta">Harvard / edX, 2025</span></a></li>
+                        <li><a href="https://www.linkedin.com/learning/certificates/40b16bbc47cb9b0a1d0530e268a2106f7c916acebd2a986e9111d17758e9a340" target="_blank" rel="noopener noreferrer"><span class="cert-name">Career Essentials in Generative AI</span><span class="cert-meta">Microsoft &amp; LinkedIn, 2024</span></a></li>
+                        <li><a href="https://www.kaggle.com/learn/certification/mikaelsilvano/intermediate-machine-learning" target="_blank" rel="noopener noreferrer"><span class="cert-name">Intermediate Machine Learning</span><span class="cert-meta">Kaggle, 2024</span></a></li>
+                        <li><a href="https://www.kaggle.com/learn/certification/mikaelsilvano/feature-engineering" target="_blank" rel="noopener noreferrer"><span class="cert-name">Feature Engineering</span><span class="cert-meta">Kaggle, 2025</span></a></li>
+                        <li><a href="https://www.kaggle.com/learn/certification/mikaelsilvano/data-visualization" target="_blank" rel="noopener noreferrer"><span class="cert-name">Data Visualization</span><span class="cert-meta">Kaggle, 2025</span></a></li>
+                        <li><a href="https://www.kaggle.com/learn/certification/mikaelsilvano/intro-to-ai-ethics" target="_blank" rel="noopener noreferrer"><span class="cert-name">Intro to AI Ethics</span><span class="cert-meta">Kaggle, 2025</span></a></li>
+                        <li><a href="https://www.udemy.com/certificate/UC-0f533d8f-0030-46a5-8f26-e03c22a3571e/" target="_blank" rel="noopener noreferrer"><span class="cert-name">Computer Networks Fundamentals</span><span class="cert-meta">Udemy, 2025</span></a></li>
+                        <li><a href="https://courses.edx.org/certificates/a94c66ab2a3041dd841524613748e00e" target="_blank" rel="noopener noreferrer"><span class="cert-name">Game Design: Game Systems and Balance</span><span class="cert-meta">LCI Education / edX, 2025</span></a></li>
+                        <li><a href="https://courses.edx.org/certificates/ec540268fcb945b6903e1c02b2471f1d" target="_blank" rel="noopener noreferrer"><span class="cert-name">Game Design: Process and Creation</span><span class="cert-meta">LCI Education / edX, 2025</span></a></li>
+                        <li><a href="https://courses.edx.org/certificates/c5f355c309be4d53a6fb2d34cf532ef8" target="_blank" rel="noopener noreferrer"><span class="cert-name">A Complete Guide to Game Design</span><span class="cert-meta">HP / edX, 2025</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="sub" data-reveal>
+                    <h3 class="sub-head">In the news</h3>
+                    <ul class="press-list">
+                        <li><a href="https://www.uph.edu/2025/10/13/hadirkan-inovasi-literasi-dan-digitalisasi-bagi-masyarakat-mahasiswa-uph-raih-hibah-ppk-ormawa-2025/" target="_blank" rel="noopener noreferrer"><span class="press-title">UPH feature on the PPK Ormawa 2025 digitalization program</span><span class="press-src">uph.edu</span></a></li>
+                        <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:7392965886518857728/" target="_blank" rel="noopener noreferrer"><span class="press-title">UPH Awards: PPK Ormawa community impact recognition</span><span class="press-src">LinkedIn</span></a></li>
+                        <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:7392968298512117760/" target="_blank" rel="noopener noreferrer"><span class="press-title">Top 20 National Finalist at Gemastik XVIII with EcoCity Match</span><span class="press-src">LinkedIn</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container contact" data-reveal>
+            <h2>Let's work together</h2>
+            <p>I'm open to internships, graduate roles, and research collaborations in web and mobile development, software engineering, and high-performance computing. Email is the fastest way to reach me.</p>
+            <div class="contact-row">
+                <a href="mailto:mikaelsilvano04@gmail.com" class="contact-email">mikaelsilvano04@gmail.com</a>
+                <button type="button" class="btn btn-outline btn-small copy-btn" data-copy="mikaelsilvano04@gmail.com">
+                    <span class="copy-label">Copy email</span><svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg>
+                </button>
+            </div>
+            <span class="sr-only" role="status" aria-live="polite" id="copy-status"></span>
+            <ul class="contact-links">
+                <li><a href="https://www.linkedin.com/in/mikael-silvano-4659b4238" class="link" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg><span>LinkedIn</span></a></li>
+                <li><a href="https://github.com/MikaelSilvano/" class="link" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span>GitHub</span></a></li>
+                <li><a href="https://www.instagram.com/mikael.silvano" class="link" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg><span>Instagram</span></a></li>
+                <li><a href="res/resume.pdf" class="link" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span>CV (PDF)</span></a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
         <div class="container">
-            <h2 class="section-heading">Research & Publications</h2>
-            <div class="research-grid">
-                
-                <div class="research-box card-hover">
-                    <div class="card-border"></div>
-                    <div class="card-content research-inner">
-                        <div class="content">
-                            <span class="badge-research">IEEE</span>
-                            <h3>Performance Evaluation of CUDA Parallel Matrix Multiplication using Julia and C++</h3>
-                            <p>Published at the IEEE 17th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC), this study compares GPU-based matrix multiplication performance using C++ and Julia, highlighting runtime overhead and optimization strategies.</p>
-                        </div>
-                        <a href="https://ieeexplore.ieee.org/document/10819596/" target="_blank" rel="noopener noreferrer" class="btn primary">Read Paper <i class="ri-article-line"></i></a>
-                    </div>
-                </div>
-
-                <div class="research-box card-hover" style="margin-top: 20px;">
-                    <div class="card-border"></div>
-                    <div class="card-content research-inner">
-                        <div class="content">
-                            <span class="badge-research pending">IJASEIT (Pending)</span>
-                            <h3>Optimizing MRT Pathways between Jakarta Malls: A Comparative Study</h3>
-                            <p>A data-driven study applying graph modeling and Minimum Spanning Tree algorithms (Kruskal’s and Prim’s) to design cost-efficient MRT routes between major Jakarta malls, with performance analysis on runtime and network efficiency.</p>
-                        </div>
-                        <button class="btn secondary" disabled style="opacity: 0.6; cursor: not-allowed;">Coming Soon <i class="ri-time-line"></i></button>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="journey-sticky-container">
-        <div class="sticky-viewport">
-            <div class="container">
-                <h2 class="section-heading">My Experiences</h2>
-            </div>
-            <div class="horizontal-track" id="track">
-                <div class="horizontal-line"></div> 
-                
-                <div class="timeline-item card-hover">
-                    <div class="date-bubble">Mar - Nov 2025</div>
-                    <div class="timeline-card">
-                        <div class="card-border"></div>
-                        <div class="card-content">
-                            <span class="category-tag">Leadership & Web Development</span>
-                            <h4>Board of Leaders</h4>
-                            <h5>PPK Ormawa HMPS Informatika UPH</h5>
-                            <p class="desc-spaced">Secured <b>IDR 31.1M</b> in national funding and led a <b>7 months community digitalization</b> program with a 12 member team, delivering training and a web catalog for local UMKM.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item card-hover">
-                    <div class="date-bubble">Aug 2024 - Jul 2025</div>
-                    <div class="timeline-card highlight-card">
-                        <div class="card-border"></div>
-                        <div class="card-content">
-                            <span class="category-tag">Leadership</span>
-                            <h4>President of HMIF UPH</h4>
-                            <h5>UPH Lippo Village</h5>
-                            <p class="desc-spaced">Led <b>5 divisions</b> and <b>9 major programs</b>, transforming budget performance from 60% to 90% usage efficiency through structured planning and governance.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item card-hover">
-                    <div class="date-bubble">Jul - Nov 2024</div>
-                    <div class="timeline-card">
-                        <div class="card-border"></div>
-                        <div class="card-content">
-                            <span class="category-tag">National Competition & Seminar</span>
-                            <h4>Secretary</h4>
-                            <h5>Falcon Project 14</h5>
-                            <p class="desc-spaced">Managed administration and inter-division coordination for a national level event involving <b>365 participants and 8 sponsors.</b></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item card-hover">
-                    <div class="date-bubble">May 2023</div>
-                    <div class="timeline-card">
-                        <div class="card-border"></div>
-                        <div class="card-content">
-                            <span class="category-tag">Internship</span>
-                            <h4>Database Administator & Management</h4>
-                            <h5>IFGF Global</h5>
-                            <p class="desc-spaced">Led the migration of <b>1,000+ records</b> from a legacy system, applying validation rules and data cleansing that improved reporting efficiency by 25% and ensured data integrity across multiple branches.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item card-hover">
-                    <div class="date-bubble">Jun 2022</div>
-                    <div class="timeline-card">
-                        <div class="card-border"></div>
-                        <div class="card-content">
-                            <span class="category-tag">Internship</span>
-                            <h4>Database Management</h4>
-                            <h5>Indomobil Nissan Datsun Group</h5>
-                            <p class="desc-spaced">Supported the Dealer Management System by organizing customer service data and ensuring record accuracy for outreach. Delivered <b>1,385 verified WhatsApp service reminders</b> in <b>10 days</b>.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="education">
-        <div class="container">
-            <h2 class="section-heading">Education & Certifications</h2>
-            
-            <div class="education-stack fade-in">
-                <div class="edu-card card-hover">
-                    <div class="card-border"></div>
-                    <div class="card-content edu-flex">
-                        <div class="edu-icon"><i class="ri-graduation-cap-fill"></i></div>
-                        <div>
-                            <h3>Universitas Pelita Harapan</h3>
-                            <p class="role">Bachelor's Degree, Informatics (2023 - 2027) <br>
-                            GPA: 3.93/4.00</p>
-                            <p class="desc">Focus on Intelligent & Interactive Applications (Web & Mobile Development, Software Engineering, and High Perfomance Computing); President of HMIF; Secretariat of Mentoring UPH.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="edu-card card-hover" style="margin-top: 15px;">
-                    <div class="card-border"></div>
-                    <div class="card-content edu-flex">
-                        <div class="edu-icon"><i class="ri-school-fill"></i></div>
-                        <div>
-                            <h3>UPH College</h3>
-                            <p class="role">High School Diploma, Science (2020 - 2023)</p>
-                            <p class="desc">Specialized STEM curriculum with early exposure to programming and computational thinking.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <br><br>
-
-            <div class="cert-grid fade-in">
-
-                <div class="cert-card card-hover">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <div class="cert-image-wrapper">
-                            <img src="res/img/cert/cs50_cyber.png" alt="Certificate" class="cert-img">
-                        </div>
-                        <div class="cert-details">
-                            <div class="cert-header"><i class="ri-shield-keyhole-fill"></i> <span class="verified">Verified</span></div>
-                            <h4>CS50 Introduction to Cybersecurity</h4>
-                            <p class="cert-issuer">Harvard / edX (2025)</p>
-                            <a href="https://courses.edx.org/certificates/e83cca7f2c5e48e0b775bb95e2048405" target="_blank" rel="noopener noreferrer" class="btn-verify">View Certificate</a>
-                        </div>
-                    </div>
-                </div>
-
-                                <div class="cert-card card-hover">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <div class="cert-image-wrapper">
-                            <img src="res/img/cert/data_vis.png" alt="Certificate" class="cert-img">
-                        </div>
-                        <div class="cert-details">
-                            <div class="cert-header"><i class="ri-bar-chart-fill"></i> <span class="verified">Verified</span></div>
-                            <h4>Data Visualization</h4>
-                            <p class="cert-issuer">Kaggle (2025)</p>
-                            <a href="https://www.kaggle.com/learn/certification/mikaelsilvano/data-visualization" target="_blank" rel="noopener noreferrer" class="btn-verify">View Certificate</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cert-card card-hover">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <div class="cert-image-wrapper">
-                            <img src="res/img/cert/feat_eng.png" alt="Certificate" class="cert-img">
-                        </div>
-                        <div class="cert-details">
-                            <div class="cert-header"><i class="ri-database-2-line"></i> <span class="verified">Verified</span></div>
-                            <h4>Feature Engineering</h4>
-                            <p class="cert-issuer">Kaggle (2025)</p>
-                            <a href="https://www.kaggle.com/learn/certification/mikaelsilvano/feature-engineering" target="_blank" rel="noopener noreferrer" class="btn-verify">View Certificate</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cert-card card-hover">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <div class="cert-image-wrapper">
-                            <img src="res/img/cert/ai_ethics.png" alt="Certificate" class="cert-img">
-                        </div>
-                        <div class="cert-details">
-                            <div class="cert-header"><i class="ri-scales-3-line"></i> <span class="verified">Verified</span></div>
-                            <h4>Intro to AI Ethics</h4>
-                            <p class="cert-issuer">Kaggle (2025)</p>
-                            <a href="https://www.kaggle.com/learn/certification/mikaelsilvano/intro-to-ai-ethics" target="_blank" rel="noopener noreferrer" class="btn-verify">View Certificate</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cert-card card-hover">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <div class="cert-image-wrapper">
-                            <img src="res/img/cert/game_design.png" alt="Certificate" class="cert-img">
-                        </div>
-                        <div class="cert-details">
-                            <div class="cert-header"><i class="ri-gamepad-line"></i> <span class="verified">Verified</span></div>
-                            <h4>A Complete Guide to Game Design</h4>
-                            <p class="cert-issuer">HP / edX (2025)</p>
-                            <a href="https://courses.edx.org/certificates/c5f355c309be4d53a6fb2d34cf532ef8" target="_blank" rel="noopener noreferrer" class="btn-verify">View Certificate</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cert-card card-hover">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <div class="cert-image-wrapper">
-                            <img src="res/img/cert/design_process_creation.png" alt="Certificate" class="cert-img">
-                        </div>
-                        <div class="cert-details">
-                            <div class="cert-header"><i class="ri-gamepad-line"></i> <span class="verified">Verified</span></div>
-                            <h4>Introduction to Game Design: Process and Creation</h4>
-                            <p class="cert-issuer">LCI Education / edX (2025)</p>
-                            <a href="https://courses.edx.org/certificates/ec540268fcb945b6903e1c02b2471f1d" target="_blank" rel="noopener noreferrer" class="btn-verify">View Certificate</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cert-card card-hover">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <div class="cert-image-wrapper">
-                            <img src="res/img/cert/system_balance.png" alt="Certificate" class="cert-img">
-                        </div>
-                        <div class="cert-details">
-                            <div class="cert-header"><i class="ri-gamepad-line"></i> <span class="verified">Verified</span></div>
-                            <h4>Introduction to Game Design: Game Systems and Balance</h4>
-                            <p class="cert-issuer">LCI Education / edX (2025)</p>
-                            <a href="https://courses.edx.org/certificates/a94c66ab2a3041dd841524613748e00e" target="_blank" rel="noopener noreferrer" class="btn-verify">View Certificate</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cert-card card-hover">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <div class="cert-image-wrapper">
-                            <img src="res/img/cert/comp_networks.png" alt="Certificate" class="cert-img">
-                        </div>
-                        <div class="cert-details">
-                            <div class="cert-header"><i class="ri-router-line"></i> <span class="verified">Verified</span></div>
-                            <h4>Computer Networks Fundamentals</h4>
-                            <p class="cert-issuer">Udemy (2025)</p>
-                            <a href="https://www.udemy.com/certificate/UC-0f533d8f-0030-46a5-8f26-e03c22a3571e/" target="_blank" rel="noopener noreferrer" class="btn-verify">View Certificate</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cert-card card-hover">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <div class="cert-image-wrapper">
-                            <img src="res/img/cert/career_essentials.png" alt="Certificate" class="cert-img">
-                        </div>
-                        <div class="cert-details">
-                            <div class="cert-header"><i class="ri-robot-2-fill"></i> <span class="verified">Verified</span></div>
-                            <h4>Career Essentials in Generative AI</h4>
-                            <p class="cert-issuer">Microsoft & LinkedIn (2024)</p>
-                            <a href="https://www.linkedin.com/learning/certificates/40b16bbc47cb9b0a1d0530e268a2106f7c916acebd2a986e9111d17758e9a340?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BQl%2FeI3y7SlSjjKBp7gKhFA%3D%3D" target="_blank" rel="noopener noreferrer" class="btn-verify">View Certificate</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cert-card card-hover">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <div class="cert-image-wrapper">
-                            <img src="res/img/cert/intermediate_ml.png" alt="Certificate" class="cert-img">
-                        </div>
-                        <div class="cert-details">
-                            <div class="cert-header"><i class="ri-brain-fill"></i> <span class="verified">Verified</span></div>
-                            <h4>Intermediate Machine Learning</h4>
-                            <p class="cert-issuer">Kaggle (2024)</p>
-                            <a href="https://www.kaggle.com/learn/certification/mikaelsilvano/intermediate-machine-learning" target="_blank" rel="noopener noreferrer" class="btn-verify">View Certificate</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cert-card card-hover">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <div class="cert-image-wrapper">
-                            <img src="res/img/cert/cs50_intro.png" alt="Certificate" class="cert-img">
-                        </div>
-                        <div class="cert-details">
-                            <div class="cert-header"><i class="ri-code-s-slash-fill"></i> <span class="verified">Verified</span></div>
-                            <h4>CS50 Introduction to Computer Science</h4>
-                            <p class="cert-issuer">Harvard (2022)</p>
-                            <a href="https://certificates.cs50.io/327b3715-94c2-46c0-a57e-bfe1acb1caa9.pdf?size=letter" target="_blank" rel="noopener noreferrer" class="btn-verify">View Certificate</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="blog">
-        <div class="container">
-            <h2 class="section-heading fade-in">My Posts</h2>
-            <div class="blog-grid">
-                
-                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7392968298512117760/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7392968298512117760%29" target="_blank" rel="noopener noreferrer" class="blog-card card-hover fade-in">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <div class="blog-header">
-                            <i class="devicon-linkedin-plain colored"></i>
-                            <span class="blog-date">Featured</span>
-                        </div>
-                        <h3>Top 20 National Finalist – GEMASTIK XVIII</h3>
-                        <p>Co-developed EcoCity Match, an educational match-3 game aligned with SDG 11 (Sustainable Cities & Communities), integrating puzzle mechanics with city-building and environmental learning objectives.</p>
-                        <span class="read-more">Read on LinkedIn <i class="ri-arrow-right-line"></i></span>
-                    </div>
-                </a>
-
-                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7392965886518857728/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7392965886518857728%29" target="_blank" rel="noopener noreferrer" class="blog-card card-hover fade-in">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <div class="blog-header">
-                            <i class="devicon-linkedin-plain colored"></i>
-                            <span class="blog-date">Featured</span>
-                        </div>
-                        <h3>UPH Awards - PPK Ormawa Community Impact Recognition</h3>
-                        <p>Received institutional recognition from Universitas Pelita Harapan for leading a community digitalization program, covering funding acquisition, structured training delivery, web catalog deployment, and sustainable handover for local UMKM.</p>
-                        <span class="read-more">Read on LinkedIn <i class="ri-arrow-right-line"></i></span>
-                    </div>
-                </a>
-
-                <a href="https://www.uph.edu/2025/10/13/hadirkan-inovasi-literasi-dan-digitalisasi-bagi-masyarakat-mahasiswa-uph-raih-hibah-ppk-ormawa-2025/" target="_blank" rel="noopener noreferrer" class="blog-card card-hover fade-in">
-                    <div class="card-border"></div>
-                    <div class="card-content">
-                        <div class="blog-header">
-                            <i class="ri-graduation-cap-fill"></i>
-                            <span class="blog-date">Featured</span>
-                        </div>
-                        <h3>Media Coverage - UPH Featured Article (PPK Ormawa 2025)</h3>
-                        <p>Featured by UPH for a student-led digitalization initiative, highlighting measurable community impact through UMKM training, digital catalog deployment, and long-term sustainability practices.</p>
-                        <span class="read-more">Read on UPH Website <i class="ri-arrow-right-line"></i></span>
-                    </div>
-                </a>
-
-            </div>
-        </div>
-    </section>
-
-    <footer id="contact">
-        <div class="container footer-content fade-in">
-            <div class="left">
-                <h2>Let's Collaborate</h2>
-                <p>I am open to internships, research collaborations, and technology-driven projects to create meaningful impact.</p>
-            </div>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/mikael-silvano-4659b4238" target="_blank" rel="noopener noreferrer"><i class="devicon-linkedin-plain"></i></a>
-                <a href="https://github.com/MikaelSilvano/" target="_blank" rel="noopener noreferrer"><i class="devicon-github-original"></i></a>
-                <a href="https://www.instagram.com/mikael.silvano" target="_blank" rel="noopener noreferrer"><i class="ri-instagram-line"></i></a>
-                <a href="mailto:mikaelsilvano04@gmail.com"><i class="ri-mail-send-fill"></i></a>
-            </div>
-        </div>
-        <div class="copyright">
-            &copy; 2025 Mikael Silvano</span>
+            <p>&copy; <span id="year">2026</span> Mikael Silvano</p>
+            <a href="#top" class="link"><span>Back to top</span></a>
         </div>
     </footer>
 
+    <script src="res/js/lenis.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
